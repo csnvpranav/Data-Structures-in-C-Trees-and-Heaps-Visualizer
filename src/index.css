@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@keyframes slideDownGlobal {
+  from {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    max-height: 220px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.accordion-expand {
+  animation: slideDownGlobal 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  overflow: hidden;
+}
+
+@keyframes slideDownMobileGlobal {
+  from {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    max-height: 180px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.accordion-expand-mobile {
+  animation: slideDownMobileGlobal 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  overflow: hidden;
+}
+
+@keyframes pathFlowAnim {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+.flowing-path {
+  stroke-dasharray: 6, 4;
+  animation: pathFlowAnim 0.7s linear infinite;
+}
