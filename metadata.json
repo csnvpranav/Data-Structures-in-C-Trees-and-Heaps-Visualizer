@@ -1,0 +1,6 @@
+{
+  "name": "Tree and Heap Animator",
+  "description": "An interactive digital showroom and animator for classical data structures including Tree and Heap variants (BST, AVL, Splay, Red-Black, B-Trees, Max/Min Heaps, and Fibonacci Heaps) with step-by-step technical execution sidebars, layout changes, and visual tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
